@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      #calculator {
+        width: 275px;
+        background-color: #e4e4e4;
+        padding: 10px;
+        padding-left: 20px;
+        border-radius: 5px;
+      }
+      button {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 1px 1px 1px #888888;
+      }
+      input[type="text"] {
+        width: 240px;
+        height: 30px;
+        margin: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        text-align: right;
+        padding-right: 5px;
+        color: #000;
+      }
+      html {
+        display: table;
+        margin: auto;
+      }
+
+      body {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <button onClick="window.location.href='../index.html';" style="border: 1px solid black;">back</button>
+    <div id="calculator">
+      <input type="text" id="hist" value="" disabled/><br />
+      <input type="text" id="result" value="" disabled/><br />
+      <button id="cle" style="background-color: rgb(255, 64, 64);">CE</button>
+      <button id="clr" style="background-color: rgb(251, 40, 40);">C</button>
+      <button id="mew" style="background-color: rgb(255, 170, 59);">M</button>
+      <button id="mer" style="background-color: rgb(255, 186, 97);">MR</button><br />
+      <button id="num">7</button>
+      <button id="num">8</button>
+      <button id="num">9</button>
+      <button id="ops">+</button><br />
+      <button id="num">4</button>
+      <button id="num">5</button>
+      <button id="num">6</button>
+      <button id="ops">-</button><br />
+      <button id="num">1</button>
+      <button id="num">2</button>
+      <button id="num">3</button>
+      <button id="ops">x</button><br />
+      <button id="dec">.</button>
+      <button id="num">0</button>
+      <button id="ops">/</button>
+      <button id="eqa" style="background-color: greenyellow">=</button><br />
+    </div>
+  <script src="script.js"></script>
+
+  </body>
+</html>
